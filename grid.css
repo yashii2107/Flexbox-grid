@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: min(50px, 7%);
+    background-color: black;
+}
+html{
+    color: white;
+    text-align: center;
+}
+h1{
+ margin: 30px 0;
+}
+.card{
+    padding: 2em;
+    border: 1px solid rgb(157, 134, 134);
+    border-radius: 10px;
+    background-color: #222429;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    border: 1px solid red;
+    /* define how many columns and its size */
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+
+    gap: 15px;
+}

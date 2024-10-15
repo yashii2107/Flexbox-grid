@@ -1,0 +1,27 @@
+body{
+    min-height: 800px;
+    display: flex;
+    border: 8px solid black;
+    /* align vertically */
+    justify-content: center;  
+    /* align horizontially */
+    align-items: center ;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 20px;
+}
+.box{
+    /* element shrink but only till 100px */
+    /* flex-shrink: 1;
+    min-width: 100px; */
+
+ /* element grow but till 300px
+    flex-grow: 1;
+    max-width: 300px; */
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
